@@ -1,91 +1,46 @@
-.head1{
-  margin:50px 654px 15px 653px;
-  width:133px;
+body {
+  font-family: "Inter";
+  text-align: center;
+  font-size: x-large;
 }
-.para{
-    margin:15px 312px 20px 311px;
-    width: 817px;
+img {
+  width: 40%;
+  margin: 1px auto;
+  display: block;
 }
-span{
-    display: block;
-    text-align: center;
+.container1,
+.para1,
+.para2 {
+  display: flex;
+  justify-content: space-around;
 }
-img{
-    margin: 20px 397px 30px 396px;
-    width: 647px;
-    height: 412px;
-}
-.head2{
-  margin:30px 650px 50px 651px;
-  width:139px;
-}
-div{
-    display: flex;
-}
-.bluepanel{
-  margin-left:270px;
+.bluepanel {
   background-color: #319cea;
 }
-.greenpanel{
-    
-  margin-left:150px;
+.greenpanel {
   background-color: #3ed319;
 }
-.violetpanel{
-    margin-left: 150px;
-    background-color: #ba31ea;
+.violetpanel {
+  background-color: #ba31ea;
 }
-.blueborder{
-    margin-left:270px;
-  border: solid 5px #1fa7f4;
+.blueborder {
+  border: 5px solid #1fa7f4;
 }
-.greenborder{
-  margin-left:145px;
-  border: solid 5px #3ed319;
+.greenborder {
+  border: 5px solid #3ed319;
 }
-.violetborder{
-    margin-left: 145px;
-    border: solid 5px #ba31ea;
+.violetborder {
+  border: 5px solid #ba31ea;
 }
-.head3{
-  margin:30px 650px 50px 651px;
-  width:157px; 
-  }
-  .para1{
-  margin-top:96px;
-  }
-  .upperbox1{
-  margin-left: 70px;
-  }
-  .upperbox2{
-  margin-left:50px;
-  }
-  .upperbox3{
-  margin-left:50px;
-  }
-  .para2{
-    margin-top:40px;
-  }
-  .lowerbox1{
-  margin-left:70px;
-  }
-  .lowerbox2{
-  margin-left:50px;
-  }
-  .lowerbox3{
-  margin-left:50px;
-  }
-  .copy{
-    margin:40px 59px 46px 1275px;
-    width: 67px;
-    height: 34px;
-    font-family: Inter;
-    font-size: 50px;
-    line-height: 0.5;
-    letter-spacing: 0.6px;
-    color: #000000;
-    background-color: #1fa7f4;
-    border-radius: 50%;
-    padding:32px 20px 32px 19px;
-    text-align:center
-  }
+.copy {
+  width: 67px;
+  height: 34px;
+  font-size: 50px;
+  line-height: 0.5;
+  color: #000000;
+  background-color: #1fa7f4;
+  border-radius: 50%;
+  padding: 32px 20px 32px 19px;
+  text-align: center;
+  margin-left: auto;
+}

@@ -1,37 +1,35 @@
-.head1,.head2,.head3{
-  height: 24px;
-  font-family: 'Inter';
+.head1,
+.head2,
+.head3 {
   font-size: 20px;
   font-weight: bold;
-  letter-spacing: 0.6px;
-  color: #000000;
 }
-.bluepanel,.greenpanel,.violetpanel{
+.para {
+  font-size: 20px;
+  font-weight: 500;
+}
+.bluepanel,
+.greenpanel,
+.violetpanel {
   width: 200px;
   height: 200px;
 }
-.blueborder,.greenborder,.violetborder{
+.blueborder,
+.greenborder,
+.violetborder {
   width: 195px;
   height: 195px;
-  background-color: #ffffff;
 }
-.para{
-    height: 75px;
-    font-family: 'Inter';
-    font-size: 20px;
-    line-height: 1.25;
-    font-weight: 500;
-    letter-spacing: 0.6px;
-    color: #000000;
-}
-.upperbox1,.upperbox2,.upperbox3,.lowerbox1,.lowerbox2,.lowerbox3{
+
+.upperbox1,
+.upperbox2,
+.upperbox3,
+.lowerbox1,
+.lowerbox2,
+.lowerbox3 {
   border: solid 5px #1fa7f4;
-  background-color: #ffffff;
   width: 338px;
-  height: 75px;
-  font-family: Inter;
   font-size: 20px;
-  padding:29px 31px 26px 31px;
-  line-height:25px;
-  line spacing:0.6px;
+  padding: 1%;
+  flex-basis: 25%;
 }

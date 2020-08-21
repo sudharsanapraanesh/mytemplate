@@ -3,16 +3,27 @@ body {
   text-align: center;
   font-size: x-large;
 }
+.head1,
+.head2,
+.head3 {
+  font-size: 20px;
+  align-items: center;
+}
+.para {
+  font-size: 20px;
+  font-weight: 500;
+}
 img {
   width: 40%;
   margin: 1px auto;
   display: block;
 }
-.container1,
-.para1,
-.para2 {
+.container1 {
+  width: 100%;
+  height: auto;
   display: flex;
   justify-content: space-around;
+  flex-direction: row;
 }
 .bluepanel {
   background-color: #319cea;
@@ -31,6 +42,22 @@ img {
 }
 .violetborder {
   border: 5px solid #ba31ea;
+}
+.upperbox1 {
+  border: solid 5px #1fa7f4;
+  width: 338px;
+  font-size: 20px;
+  padding: 1%;
+  flex-basis: 25%;
+  flex-direction: row;
+}
+.lowerbox1 {
+  border: solid 5px #1fa7f4;
+  width: 338px;
+  font-size: 20px;
+  padding: 1%;
+  flex-basis: 25%;
+  flex-direction: row;
 }
 .copy {
   width: 67px;

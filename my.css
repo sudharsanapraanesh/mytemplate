@@ -16,11 +16,23 @@ img {
   margin: 1px auto;
   display: block;
 }
-.container1 {
-  width: 100%;
-  height: auto;
+.container1,
+.container2,
+.container3 {
   display: flex;
   justify-content: space-around;
+}
+.bluepanel,
+.greenpanel,
+.violetpanel {
+  padding: 7%;
+  margin: 1%;
+}
+.blueborder,
+.greenborder,
+.violetborder {
+  padding: 6.5%;
+  margin: 1%;
 }
 .bluepanel {
   background-color: #319cea;
@@ -40,7 +52,12 @@ img {
 .violetborder {
   border: 5px solid #ba31ea;
 }
-.upperbox1 {
+.upperbox1,
+.upperbox2,
+.upperbox3,
+.lowerbox1,
+.lowerbox2,
+.lowerbox3 {
   border: solid 5px #1fa7f4;
   width: 40%;
   font-size: 20px;
@@ -54,5 +71,5 @@ img {
   background-color: #1fa7f4;
   border-radius: 50%;
   padding: 1%;
-  margin-left:auto;
+  margin-left: auto;
 }

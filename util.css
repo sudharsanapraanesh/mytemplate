@@ -1,12 +1,10 @@
 .bluepanel {
-  width: 200px;
-  height: 200px;
-  margin: 20px;
+  padding:7%;
+  margin: 1%;
   box-sizing: border-box;
 }
 .blueborder {
-  width: 200px;
-  height: 200px;
-  margin: 20px;
+  padding:7%;
+  margin: 1%;
   box-sizing: border-box;
 }

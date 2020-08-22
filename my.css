@@ -58,14 +58,10 @@ img {
   flex-direction: row;
 }
 .copy {
-  width: 67px;
-  height: 34px;
+  width: 5%;
   font-size: 50px;
-  line-height: 0.5;
-  color: #000000;
   background-color: #1fa7f4;
   border-radius: 50%;
-  padding: 32px 20px 32px 19px;
-  text-align: center;
-  margin-left: auto;
+  padding: 1%;
+  margin-left:auto;
 }

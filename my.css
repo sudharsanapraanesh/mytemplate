@@ -2,35 +2,24 @@ body {
   font-family: "Inter";
   text-align: center;
 }
-.head1,
-.head2,
-.head3 {
-  font-size: 20px;
-  align-items: center;
-}
-.para {
+.head,
+.sec {
   font-size: 20px;
 }
 img {
   width: 40%;
-  margin: 1px auto;
-  display: block;
+  height: 30%;
+  margin: auto;
 }
-.container1,
-.container2,
-.container3 {
+.container {
   display: flex;
   justify-content: space-around;
 }
-.bluepanel,
-.greenpanel,
-.violetpanel {
+.bluepanel {
   padding: 7%;
   margin: 1%;
 }
-.blueborder,
-.greenborder,
-.violetborder {
+.blueborder {
   padding: 6.5%;
   margin: 1%;
 }
@@ -52,12 +41,7 @@ img {
 .violetborder {
   border: 5px solid #ba31ea;
 }
-.upperbox1,
-.upperbox2,
-.upperbox3,
-.lowerbox1,
-.lowerbox2,
-.lowerbox3 {
+.upperbox1 {
   border: solid 5px #1fa7f4;
   width: 40%;
   font-size: 20px;
@@ -65,11 +49,14 @@ img {
   flex-basis: 25%;
   flex-direction: row;
 }
-.copy {
-  width: 5%;
-  font-size: 50px;
-  background-color: #1fa7f4;
+.c-button {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
-  padding: 1%;
-  margin-left: auto;
+  font-size: 40px;
+  background-color: #1fa7f4;
 }

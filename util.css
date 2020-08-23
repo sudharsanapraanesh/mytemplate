@@ -1,34 +1,19 @@
 @media (max-width: 480px) {
-  .container1,
-  .container2,
-  .container3 {
+  .container{
     flex-direction: column;
     text-align: center;
   }
-  .bluepanel,
-  .greenpanel,
-  .violetpanel {
+  .bluepanel {
     width: 40%;
     height: 8rem;
     margin-left: 25%;
   }
-  .blueborder,
-  .greenborder,
-  .violetborder {
+  .blueborder{
     width: 39%;
     height: 8rem;
     margin-left: 25%;
   }
-  .upperbox1,
-  .upperbox2,
-  .upperbox3,
-  .lowerbox1,
-  .lowerbox2,
-  .lowerbox3 {
+  .upperbox1 {
     width: 70%;
     margin-left: 15%;
   }
-  .copy {
-    font-size: 20px;
-  }
-}

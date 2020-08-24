@@ -1,0 +1,19 @@
+@media (max-width: 480px) {
+  .container{
+    flex-direction: column;
+    text-align: center;
+  }
+  .bluepanel {
+    width: 40%;
+    height: 8rem;
+    margin-left: 25%;
+  }
+  .blueborder{
+    width: 39%;
+    height: 8rem;
+    margin-left: 25%;
+  }
+  .upperbox1 {
+    width: 70%;
+    margin-left: 15%;
+  }
